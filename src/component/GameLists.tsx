@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import gamesData from '../data/games.json';
 

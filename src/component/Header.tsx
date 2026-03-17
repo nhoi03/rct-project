@@ -1,8 +1,8 @@
 import './Header.css'
 import { useEffect, useState } from 'react';
 const Header =  ()=> {
-  const [name, setName] = useState<string>('T2512E');
-  const [email, setEmail] = useState<string>('nhoi@gmail.com');
+  const [name] = useState<string>('T2512E');
+  const [email] = useState<string>('nhoi@gmail.com');
   const [countNumber, setCountNumber] = useState<number>(0);
   const [text, setText] = useState<string>('');
   function demo(){
